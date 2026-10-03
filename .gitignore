@@ -6,10 +6,6 @@ __pycache__/
 .venv/
 .env/
 
-# Model files
-*.pkl
-*.joblib
-
 # Secrets
 .env
 

@@ -26,7 +26,7 @@ class IrisResponse(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "Sentiment analysis API is running. See /docs for usage."}
+    return {"message": "Iris prediction API is running. See /docs for usage."}
 
 @app.get("/health")
 def health():
